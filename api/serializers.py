@@ -19,3 +19,5 @@ class ProductSerializer(serializers.ModelSerializer):
                 "Price must be greater than 0."
             )
         return value
+
+
