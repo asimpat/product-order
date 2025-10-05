@@ -27,7 +27,7 @@ class ProductListCreateAPIView(generics.ListCreateAPIView):
     # pagination_class.page_size = 5
     # pagination_class.page_query_param = 'pagenum'
     # allow client to be the one to pass the param of the pagination they need
-    # pagination_class.page_size_query_param = 'size'
+    # pagination_class.page_size_query_param = 'size' 
     # pagination_class.max_page_size = 3
 
     def get_permissions(self):
